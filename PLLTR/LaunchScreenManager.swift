@@ -57,7 +57,7 @@ class LaunchScreenManager {
         }), completion: nil)
             
             
-        let vc = ViewController()
+        let vc = HomeVC()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + animationDurationBase + 1) {
             self.view!.removeFromSuperview()

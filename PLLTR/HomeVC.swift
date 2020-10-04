@@ -9,7 +9,7 @@ import UIKit
 import GoogleSignIn
 import Lottie
 
-class ViewController: UIViewController {
+class HomeVC: UIViewController {
     // MARK: - Properties
     
     var titleLabel: UILabel = {
@@ -296,7 +296,7 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: UITextFieldDelegate {
+extension HomeVC: UITextFieldDelegate {
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         if textField == passwordTextField {

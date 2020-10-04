@@ -11,6 +11,8 @@
 		78DFC9F44BF3166EECEDC6C9 /* Pods_PLLTR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481219A9CC68EEDC72D34928 /* Pods_PLLTR.framework */; };
 		AE3D376C2525511300E9BBA6 /* food-carousel.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D376B2525511300E9BBA6 /* food-carousel.json */; };
 		AE3D37772525676600E9BBA6 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = AE3D37762525676600E9BBA6 /* food.json */; };
+		AE400AC52529668800596D34 /* checkout.json in Resources */ = {isa = PBXBuildFile; fileRef = AE400AC42529668800596D34 /* checkout.json */; };
+		AE400ACA2529669400596D34 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE400AC92529669400596D34 /* SignupVC.swift */; };
 		AE7D667F252543760074BD5A /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE7D6673252543760074BD5A /* Roboto-BlackItalic.ttf */; };
 		AE7D6680252543760074BD5A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE7D6674252543760074BD5A /* Roboto-BoldItalic.ttf */; };
 		AE7D6681252543760074BD5A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE7D6675252543760074BD5A /* Roboto-Regular.ttf */; };
@@ -27,7 +29,7 @@
 		AEC495BE2525040B004AAD6A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC495BD2525040B004AAD6A /* Util.swift */; };
 		AEC5070F2524DC9200799C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5070E2524DC9200799C52 /* AppDelegate.swift */; };
 		AEC507112524DC9200799C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC507102524DC9200799C52 /* SceneDelegate.swift */; };
-		AEC507132524DC9200799C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC507122524DC9200799C52 /* ViewController.swift */; };
+		AEC507132524DC9200799C52 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC507122524DC9200799C52 /* HomeVC.swift */; };
 		AEC507162524DC9200799C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC507142524DC9200799C52 /* Main.storyboard */; };
 		AEC507192524DC9200799C52 /* PLLTR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEC507172524DC9200799C52 /* PLLTR.xcdatamodeld */; };
 		AEC5071B2524DC9300799C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC5071A2524DC9300799C52 /* Assets.xcassets */; };
@@ -66,6 +68,8 @@
 		A755D5B1D45D353AA1095723 /* Pods-PLLTR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLLTR.release.xcconfig"; path = "Target Support Files/Pods-PLLTR/Pods-PLLTR.release.xcconfig"; sourceTree = "<group>"; };
 		AE3D376B2525511300E9BBA6 /* food-carousel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "food-carousel.json"; sourceTree = "<group>"; };
 		AE3D37762525676600E9BBA6 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		AE400AC42529668800596D34 /* checkout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = checkout.json; sourceTree = "<group>"; };
+		AE400AC92529669400596D34 /* SignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		AE7D6673252543760074BD5A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		AE7D6674252543760074BD5A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		AE7D6675252543760074BD5A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -83,7 +87,7 @@
 		AEC5070B2524DC9200799C52 /* PLLTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLLTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC5070E2524DC9200799C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEC507102524DC9200799C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEC507122524DC9200799C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC507122524DC9200799C52 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		AEC507152524DC9200799C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEC507182524DC9200799C52 /* PLLTR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PLLTR.xcdatamodel; sourceTree = "<group>"; };
 		AEC5071A2524DC9300799C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,13 +154,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AE3D376A252550F400E9BBA6 /* lottieAnimations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = lottieAnimations;
-			sourceTree = "<group>";
-		};
 		AE7D66722525434F0074BD5A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,12 +200,13 @@
 			children = (
 				AE3D376B2525511300E9BBA6 /* food-carousel.json */,
 				AE3D37762525676600E9BBA6 /* food.json */,
-				AE3D376A252550F400E9BBA6 /* lottieAnimations */,
+				AE400AC42529668800596D34 /* checkout.json */,
 				AE7D66722525434F0074BD5A /* Fonts */,
 				AEC495BD2525040B004AAD6A /* Util.swift */,
 				AEC5070E2524DC9200799C52 /* AppDelegate.swift */,
 				AEC507102524DC9200799C52 /* SceneDelegate.swift */,
-				AEC507122524DC9200799C52 /* ViewController.swift */,
+				AEC507122524DC9200799C52 /* HomeVC.swift */,
+				AE400AC92529669400596D34 /* SignupVC.swift */,
 				AEC507142524DC9200799C52 /* Main.storyboard */,
 				AEC5071A2524DC9300799C52 /* Assets.xcassets */,
 				AEC5071F2524DC9300799C52 /* Info.plist */,
@@ -354,6 +352,7 @@
 				AE7D6689252543760074BD5A /* Roboto-LightItalic.ttf in Resources */,
 				AE7D6687252543760074BD5A /* Roboto-MediumItalic.ttf in Resources */,
 				AE7D6684252543760074BD5A /* Roboto-Bold.ttf in Resources */,
+				AE400AC52529668800596D34 /* checkout.json in Resources */,
 				AE7D668A252543760074BD5A /* Roboto-Italic.ttf in Resources */,
 				AE7D6688252543760074BD5A /* Roboto-Light.ttf in Resources */,
 				AEC507452524DCDE00799C52 /* LaunchScreen.xib in Resources */,
@@ -528,8 +527,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC507192524DC9200799C52 /* PLLTR.xcdatamodeld in Sources */,
+				AE400ACA2529669400596D34 /* SignupVC.swift in Sources */,
 				AEC495BE2525040B004AAD6A /* Util.swift in Sources */,
-				AEC507132524DC9200799C52 /* ViewController.swift in Sources */,
+				AEC507132524DC9200799C52 /* HomeVC.swift in Sources */,
 				AEC5070F2524DC9200799C52 /* AppDelegate.swift in Sources */,
 				AEC507502524DD1F00799C52 /* LaunchScreenManager.swift in Sources */,
 				AEC507112524DC9200799C52 /* SceneDelegate.swift in Sources */,
